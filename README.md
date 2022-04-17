@@ -20,8 +20,8 @@ Output (E-Mail)
 ![E-Mail](/images/Email.png)
 
 Team Members:
-1. Himanshu Kumar
-2. Rahul Ramaswamy 
+1. Rahul Ramaswamy
+2. Himanshu Kumar
 
 ## Steps
 1. Build and deploy the frontend of the application<br>
