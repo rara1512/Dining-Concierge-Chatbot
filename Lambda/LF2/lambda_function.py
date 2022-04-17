@@ -32,7 +32,7 @@ def callSQS(event):
 def get_rest_id(cuisine):
     es_Query = "https://search-restaurants-g7ikxqgqdbmkt64tdwa7fci6v4.us-east-1.es.amazonaws.com/_search?q={cuisine}".format(
         cuisine=cuisine)
-    esResponse = requests.get(es_Query,auth=('himarest', 'London@1985'))
+    esResponse = requests.get(es_Query,auth=('', ''))
     data = json.loads(esResponse.content.decode('utf-8'))
     try:
         esData = data["hits"]["hits"]
